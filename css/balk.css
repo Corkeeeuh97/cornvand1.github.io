@@ -1,0 +1,18 @@
+/* CSS Document */
+
+.ttl p a {
+	margin: 0px;
+	font-family: montserrat;
+	font-weight: 700;
+	font-size:26px;
+	text-decoration: none;
+	color: white;
+}
+.menu a{
+	font-family: menu;
+	font-size: 18px;
+	text-decoration: none;
+	color: white;
+	line-height: 37px;
+	text-align: center;
+}

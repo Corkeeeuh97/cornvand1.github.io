@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700,800,900|Lato:100,300,400,700,900');
+
+@font-face {
+    font-family: menu;
+    src: url(../font/OCRAStd.otf);
+}
+@font-face {
+    font-family: merm;
+    src: url(../font/Mermaid1001_0.ttf);
+}
+@font-face {
+    font-family: bign;
+    src: url(../font/big_noodle_titling_0.ttf);
+}
+p{
+	margin: 0px;
+	text-align: center;
+}
+body{
+	margin: 0px;
+	background-color: black;
+}
+
+h1{
+	margin: 0px;
+	font-family: montserrat;
+	font-size: 55px;
+	color: white;
+	text-align: center;
+}
+
+
+.titel{
+	margin-top: 56.525px;
+	height: 56.525px !important;
+	color: white; 
+	
+}
+.titelwrap{
+	background-color: rgba(37,57,61,0.19)
+}
+.titel p {
+	font-size: 52px;
+	margin: 0px;
+	
+
+}
+.mermaid{
+	font-family: merm;
+}
+.bign{
+	font-family: bign;
+}
+.ondertitel p{
+	margin: 0px;
+	font-size: 24px;
+	font-family: montserrat;
+	font-weight: 700;
+	color: white; 
+
+}
+.afbeelding{
+	background-image: url('../img/DSC_0040.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+	background-size:cover;
+}
+.kop1 {
+	margin: 28px 0px;
+	height: 56.525px !important;
+}
+.kop1 p{
+	font-size: 52px;
+	font-family: montserrat;
+	font-weight: 600;
+	color: WHITE;
+}
+
+.icon{
+	height: 84.94px!important;
+	margin-top: 28px!important;
+
+}
+.voordeel{
+	margin: 10px 0px 0px;
+	height: 113.04px!important;
+	margin-top: 28px!important;
+}
+.watdoenwe{
+	background-color: #05222A;
+}
+.af1{
+	background-image: url(../img/DSC_0143.jpg);
+}
+.af2{
+	background-image: url(../img/DSC_0926_zonderwatermerk.jpg);
+	height: 593.46px!important; 
+}
+.af3{
+	background-image: url(../img/DSC_0618.jpg);
+}
+.af4{}
+.review{
+	padding-bottom:  84.78px !important;
+	background-color: #8BA189;
+}
+.reviewke{
+	height: 84.78px !important; 
+	margin-top: 84.78px !important;
+}
+
+.socialemedia{
+ background-color: #83B2B4
+}
+
+.wsm{
+	margin-top: 56.52px !important;
+	height: 113.04px !important;
+	margin-bottom: 56.52px !important;
+}
+
+.icon4op4{
+	height: 113.04px !important; 
+}
+.likenvolg{
+	margin-top: 56.52px !important;
+	margin-bottom: 56.52px !important;
+}
+
+.contactform{
+	height: 681.548px !important;
+	background-color: rgba(149,119,86,0.33);
+}
+.eem{
+	height: 84.75px !important;
+	margin-bottom: 28px!important;
+}
+
+.textvak , .groottextvak {
+	width: 457.750px;
+	border: none;
+	background-color: rgba(255,255,255,0.61);
+	color: #25393D;
+	font-family: Lato;
+	font-weight: 400;
+	text-align: center;
+	height: 28.25px;
+	
+}
+.groottextvak, .groottextvakdiv{
+	height: 141.25px!important;
+}
+.margin1under{
+	margin-bottom: 25.28px!important;
+}
+
+.verstuurknop input{
+	height: 28.25px;
+	border: none;
+	background-color: rgba(103,103,103,.80);
+	width: 130px;
+	color: white;
+	font-family: Lato;
+	font-weight: 400;
+	text-align: center;
+}
+
+.footer{
+	background-color: #2F2E36;
+}
+
+
+/*Google Maps Shit*/
+
+a[href^="http://maps.google.com/maps"]{display:none !important}
+a[href^="https://maps.google.com/maps"]{display:none !important}
+
+.gmnoprint a, .gmnoprint span, .gm-style-cc {
+    display:none;
+}
+.gmnoprint div {
+    background:none !important;
+}
+
+.map{
+    margin-top: 3em;
+}
+/*Einde google maps shit*/
+
+.onderaan{
+	margin-top: 50px;
+}
+.footertext p{
+	font-size: 10px !important;
+	font-weight: 400;
+}
+.icon img{
+	height: 84.75px;
+}
+.voordeeltitel,.uitgebr p{
+	color: white;
+	font-family: menu;
+	font-size: 11px;
+}
+.voordeeltitel p{
+	font-family: montserrat;
+	font-size: 25px;
+	font-weight: 600;
+	line-height: -5px !important;
+}
+.uitgebr{
+	height: 84.78px!important;
+}
+.reviewke p{
+	color:  white;
+	font-family: montserrat;
+	font-weight: 600;
+	font-size: 21px;
+	
+}
+.author{
+	text-align: right!important;
+	font-size: 10px!important;
+}
+.wsm p{
+	font-family: menu;
+	color:  white;
+	
+}
+.icon4op4 img{
+	height: 109.201 px;
+}
+.likenvolg p{
+	font-family: montserrat;
+	color: white;
+}
+.eem p{
+	color: white;
+	font-family: lato;
+	font-weight: 300
+}
+.flash,.website,.design{
+    display:block;
+    margin:auto;
+}
+
+
+
+
+
+
+
+#uitgebr {
+}

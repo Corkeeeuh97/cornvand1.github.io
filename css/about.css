@@ -1,0 +1,42 @@
+/* CSS Document*/
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700,800,900|Lato:100,300,400,700,900');
+/*Images*/
+body{
+    overflow:hidden;
+	background-image: url(../img/DSC_0731_zonderwatermerk.jpg);
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+	background-size:cover;
+	transition: background-image 1s; 
+
+
+}
+
+.inleiding p{
+	font-family: montserrat;
+	font-size: 14px;
+	color: white;
+}
+
+.teamlid img{
+	height: 113.88px ;
+	
+}
+.uitleglid p{
+	color: white;
+	font-family: montserrat;
+	font-size: 12.7px;
+
+}
+#backall{
+	transition: background-color 2s; 
+
+}
+#teamleden{
+	opacity: 0.0;
+	transition: opacity 1s; 
+
+}
+.grid__container{
+	height: 2000px;
+}

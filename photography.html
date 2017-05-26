@@ -1,0 +1,181 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Portfolio Photography</title>
+<link rel="stylesheet" href="css/grid.css">
+<link rel="stylesheet" href="css/main.css">
+<link rel="stylesheet" href="css/balk.css">
+<link rel="stylesheet" href="css/photography.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
+<!-- Core CSS file -->
+
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.css'>
+<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/default-skin/default-skin.min.css'>
+
+  
+</head>
+
+<body class="">
+
+
+
+<!-- Root element of PhotoSwipe. Must have class pswp. -->
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    <!-- Background of PhotoSwipe. 
+         It's a separate element, as animating opacity is faster than rgba(). -->
+    <div class="pswp__bg"></div>
+
+    <!-- Slides wrapper with overflow:hidden. -->
+    <div class="pswp__scroll-wrap">
+
+        <!-- Container that holds slides. PhotoSwipe keeps only 3 slides in DOM to save memory. -->
+        <div class="pswp__container">
+            <!-- don't modify these 3 pswp__item elements, data is added later on -->
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                <!--  Controls are self-explanatory. Order can be changed. -->
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                <!-- Preloader demo https://codepen.io/dimsemenov/pen/yyBWoR -->
+                <!-- element will get class pswp__preloader--active when preloader is running -->
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                      <div class="pswp__preloader__cut">
+                        <div class="pswp__preloader__donut"></div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div> 
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+          </div>
+
+        </div>
+
+</div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe-ui-default.min.js'></script>
+
+    <script src="js/index.js"></script>
+
+
+
+
+
+	
+ 	<div class="grid__container">
+		<div class="grid__wrapper" id="cover">
+  			 <div class="grid__row  grid__imagefirst mrmayar" id="cover">
+   			 	<div class="grid__row grid__header">
+					<div class="grid__column-4 grid__offset-2 ttl"><p><a href="index.html">Corez</a></p></div>
+	   <div class="grid__column-3 grid__offset-22 menu"><a href="about.html">about</a></div>
+	   <div class="grid__column-5 menu"><a href="photography.html">photography</a></div>
+	   <div class="grid__column-2 menu"><a href="photography.html#film">film</a></div>
+	   <div class="grid__column-3 menu"><a href="photography.html#design">design</a></div>
+	   <div class="grid__column-3 menu"><a href="index.html#contact">contact</a></div>
+  		s
+    			</div>
+
+    			  <div onMouseOver="md1d()" onMouseOut="md1l()" class="grid__row grid__mart2 grid__ver10 prenext">
+    			  	    			  <div   class="grid__column-48 grid__mart5   "><p onClick="openPhotoSwipe1()">Bekijk portfolio</p></div>
+    			  </div>
+
+    			   <div class="grid__column-24 grid__offset-24 grid__ver6 grid__mart5 vakje" id="vakje" style="background-color: #83B2B4">
+					   <div class="grid__column-48 grid__ver4 porttitel grid__mart2"><h1>DJ Photography</h1></div>
+    			   </div>
+    			</div>
+    			<div class="grid__row tussenbalk grid__ver6"></div>
+   			    <div class="grid__row grid__imagefirst bvp" id="cover">
+
+    			  <div  id="vakje" class="grid__column-24  grid__ver4 vakje"  style="background-color: #83B2B4">
+					   <div class="grid__column-48 grid__ver2 porttitel grid__mart1"><p>Event Photography</p></div>
+    			  </div>
+    			  
+    			 <div onMouseOver="md1d()" onMouseOut="md1l()" class="grid__row grid__mart6 grid__marb2 grid__ver10 prenext">
+    			  	    			  <div class="grid__column-48 grid__mart6 portfevent "><p  onClick="openPhotoSwipe2()">Bekijk portfolio</p></div>
+    			 </div>
+
+    			</div>    			
+    			<div class="grid__row tussenbalk grid__ver6 " style="background-color: #5E173C!important">
+    			</div>
+    			<div class="grid__row grid__imagefirst charlotte" id="cover">
+    			<div class="grid__column-24 grid__offset-24 grid__ver4 vakje" id="vakje" style="background-color: #5E173C">
+					   <div class="grid__column-48 grid__ver2 porttitel grid__mart1"><p>Photoshoots</p></div>
+    			</div>
+    			 <div onMouseOver="md1d()" onMouseOut="md1l()" class="grid__row grid__mart6 grid__marb2 grid__ver10 prenext">
+    			  	    			  <div class="grid__column-48 grid__mart6 portfevent "><p  onClick="openPhotoSwipe3()">Bekijk portfolio</p></div>
+    			 </div>
+    			</div>
+    			<div class="grid__row tussenbalk grid__ver6 " style="background-color: #F1BF24!important">
+    			</div>
+    			<div class="grid__row grid__imagefirst video">
+    			<div class="grid__column-24  grid__ver4 vakje" id="film" style="background-color: #F1BF24 ">
+					   <div class="grid__column-48 grid__ver2 porttitel grid__mart1"><p>Film</p></div>
+    			</div>
+				    			  <div onMouseOver="md1d()" onMouseOut="md1l()" class="grid__row grid__mart4 grid__ver10 prenext">
+    			  	    			  <div   class="grid__column-48 grid__mart5   "><p><a style="color: white;text-decoration: none" href="https://www.youtube.com/channel/UCmRkdh0q6o0zEecxJeAo-Fw">Open youtubekanaal</a></p></div>
+    			  </div>	
+    			</div>
+    			<div class="grid__row tussenbalk grid__ver6 " style="background-color: #83B2B4!important">
+    			</div>
+    			<div class="grid__row grid__imagefirst elke" id="cover">
+    			<div class="grid__column-24  grid__offset-24  grid__ver4 vakje" id="vakje" id="design" style="background-color: #83B2B4 ">
+					   <div class="grid__column-48 grid__ver2 porttitel grid__mart1"><p>DESIGN</p></div>
+    			</div>
+    			 <div onMouseOver="md1d()" onMouseOut="md1l()" class="grid__row grid__mart6 grid__marb2 grid__ver10 prenext">
+    			  	    			  <div class="grid__column-48 grid__mart6 portfevent "><p  onClick="openPhotoSwipe4()">Bekijk portfolio</p></div>
+    			 </div>
+    			</div>
+    			<div class="grid__row tussenbalk grid__ver8" style="background-color: #2F2E36!important">
+    				<div class="footeronderaan">
+						<div class="grid__column-48 kop1 grid__offset-12 titel onderaan">
+						<p><span class="mermaid">Corez Photography</span><span class="bign"> // CorezGRFX</span></p>
+						</div>
+						<div class="grid__column-48 kop1 grid__offset-12 footertext">
+						<p>
+							Alle content is Copyright Corneel Van der Cruyssen execpt Icons <br>
+							Icons are made by Freepik from www.flaticon.com <br>
+							CorezPhotography © 2017
+						</p>
+						</div>
+					</div>
+    			</div>
+    		</div>
+		</div>
+	</div>
+
+</body>
+</html>

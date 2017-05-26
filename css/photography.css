@@ -1,0 +1,62 @@
+/* CSS Document*/
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700,800,900|Lato:100,300,400,700,900');
+/*images*/
+.mrmayar{
+	background-image: url(../img/DSC_0030_zonderwatermerk.jpg);
+}
+.bvp{
+	background-image: url(../img/DSC_0022.jpg);
+}
+.charlotte{
+	background-image: url(../img/DSC_0538.jpg);
+}
+.video{
+	background-image: url(../img/event/film.jpg);
+}
+
+.elke{;
+	background-image: url(../img/DSC_0679_zonderwatermerk-3.jpg);
+   	background-position:0px -70px ;
+}
+/*Other CSS*/
+.porttitel p{
+	font-family: montserrat;
+	font-weight: 700;
+	font-size: 48px;
+	color: white;
+}
+.prenext p{
+	font-family: montserrat;
+	font-size: 20px;
+	color: white;
+}
+
+.prenext{
+	opacity: 0.0;
+	transition: opacity 0.5s; 
+}
+.prenext:hover {
+	opacity: 1.0;
+	transition: opacity 0.5s; 
+
+}
+
+.tussenbalk{
+	background-color: #83B2B4!important;
+}
+.vakje a{
+	color: white!important;
+	text-decoration: none;
+	
+}
+#vakje{
+	opacity: 1;
+	transition: opacity 0.5s; 
+}
+
+
+.galleria{ background: #000 }
+
+#cover{
+	transition: opacity 1s; 
+}

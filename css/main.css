@@ -15,6 +15,8 @@
 p{
 	margin: 0px;
 	text-align: center;
+	color: white;
+	font-family: menu;
 }
 body{
 	margin: 0px;
@@ -154,7 +156,7 @@ h1{
 	margin-bottom: 25.28px!important;
 }
 
-.verstuurknop input{
+.verstuurknop,.verstuurknop input{
 	height: 28.25px;
 	border: none;
 	background-color: rgba(103,103,103,.80);
